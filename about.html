@@ -11,6 +11,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <link href="css/font-awesome.css" rel="stylesheet" type="text/css" media="all" /><!-- fontawesome css -->     
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" /><!-- Bootstrap stylesheet -->
 <link href="css/snow.css" rel="stylesheet" type="text/css" media="all" /><!-- stylesheet -->
+<link href="css/lsb.css" rel="stylesheet" type="text/css">
+
 <link href="css/easy-responsive-tabs.css" rel='stylesheet' type='text/css'/>
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" /><!-- stylesheet -->
 <!-- meta tags -->
@@ -40,9 +42,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				  </button>
+				
 				<div class="logo">
-					<h1><a href="index.html"><span>WP</span> <div class="logo-img"><img src="images/in-love.png" alt="img09"/></div><p class="sub_title">Wedding Proposer</p> </a></h1>
+					<h1><a href="index.html"><span>E Y</span> <div class="logo-img"><img src="images/in-love.png" alt="img09"/></div><p class="sub_title">Invitaci&oacute;n Virtual</p> </a></h1>
 				</div>	
+
 				</div>
 
 				<!-- Collect the nav links, forms, and other content for toggling -->
@@ -428,33 +432,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 	<!-- //main slider-banner --> 	
 	<!-- Countdown-Timer-JavaScript -->
-			<script src="js/simplyCountdown.js"></script>
-			<script>
-				var d = new Date(new Date().getTime() + 948 * 120 * 120 * 2000);
-
-				// default example
-				simplyCountdown('.simply-countdown-one', {
-					year: d.getFullYear(),
-					month: d.getMonth() + 1,
-					day: d.getDate()
-				});
-
-				// inline example
-				simplyCountdown('.simply-countdown-inline', {
-					year: d.getFullYear(),
-					month: d.getMonth() + 1,
-					day: d.getDate(),
-					inline: true
-				});
-
-				//jQuery example
-				$('#simply-countdown-losange').simplyCountdown({
-					year: d.getFullYear(),
-					month: d.getMonth() + 1,
-					day: d.getDate(),
-					enableUtc: false
-				});
-			</script>
+			
 		<!-- //Countdown-Timer-JavaScript -->
 <!-- required-js-files-->
 							<link href="css/owl.carousel.css" rel="stylesheet">
@@ -477,6 +455,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							    });
 							    </script>
 								 <!--//required-js-files-->
+
+								 <script src="js/lsb.min.js"></script>
+								 <script>
+								 $(window).load(function() {
+									   $.fn.lightspeedBox();
+									 });
+								 </script>
+
 
 <!--tabs-->
 <script src="js/easy-responsive-tabs.js"></script>
