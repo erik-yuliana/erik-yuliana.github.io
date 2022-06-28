@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
-<title>Wedding Proposer  a Wedding Category Bootstrap Responsive Website Template | Home :: w3layouts</title>    
+<title>Erik & Yuliana | Home</title>    
 <link href="css/font-awesome.css" rel="stylesheet" type="text/css" media="all" /><!-- fontawesome css -->     
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" /><!-- Bootstrap stylesheet -->
 <link href="css/snow.css" rel="stylesheet" type="text/css" media="all" /><!-- stylesheet -->
@@ -23,8 +23,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link href="//fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
 <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700" rel="stylesheet">
 <!--//fonts-->
+
+<link href="css/custom_AnimacionSobre.css" rel="stylesheet preload">
+
 </head>
 <body>
+    <audio loop>
+		<source src="images/cancion.mp3" type="audio/mp3">
+		Tu navegador no soporta mp3
+	  </audio>
+	  <div class="scrollToTop circle" id="boton"><i class="fa fa-volume-up" id="reproductor"></i></div>
 <!-- header -->
 	<header>
 		<div class="container">
@@ -40,7 +48,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<span class="icon-bar"></span>
 				  </button>
 				<div class="logo">
-					<h1><a href="index.html"><span>WP</span> <div class="logo-img"><img src="images/in-love.png" alt="img09"/></div><p class="sub_title">Wedding Proposer</p> </a></h1>
+					<h1><a href="index.html"><span>E Y</span> <div class="logo-img"><img src="images/in-love.png" alt="img09"/></div><p class="sub_title">Invitaci&oacute;n Virtual</p> </a></h1>
 				</div>	
 				</div>
 
@@ -48,17 +56,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				  <nav class="cl-effect-13" id="cl-effect-13">
 						<ul class="nav navbar-nav">
-							<li class="active"><a href="index.html">Home</a></li>
-							<li><a href="about.html">About</a></li>
-							<li><a href="gallery.html">Wedding Albums</a></li>
-							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <b class="caret"></b></a>
-								<ul class="dropdown-menu agile_short_dropdown">
-									<li><a href="icons.html">Icons</a></li>
-									<li><a href="codes.html">Typography</a></li>
-								</ul>
-							</li>
-							<li><a href="contact.html">Contact Us</a></li>
+							<li class="active"><a href="index.html">Inicio</a></li>
+							<li><a href="about.html">Sobre nosotros</a></li>					
 						</ul>
 						
 					</nav>
@@ -72,6 +71,20 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 	</header>
 	<!-- //header -->
+
+      <!-- ANIMACIÓN SOBRE -->
+    <div id="myModal" class="modal" style="background-color: white;">
+		<div>
+		  <input type="image" src="images\SelloInv.png" name="saveForm" class="sello selloAnimation" onclick="animacionSobre()" id="selloButton" />
+		</div>
+
+		<div id="myDIV">
+		  <img id="sobre1" src="images\sobre1.png"  class="sobreSize">
+		  <img id="sobre2" src="images\sobre2.png" class="sobreSize" style="float: left;">
+		</div>
+	</div>
+
+
 	<!-- banner-slider -->
 	<div class="w3ls_banner_section">
 			<div class="snow-container">
@@ -88,7 +101,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							
 								  <div class="banner_agile-info">
 									  <h3>Hola a todos...</h3>
-									  <p>Erik Candela y Yuliana Yauri</p>
+									  <p>Erik Candela & Yuliana Yauri</p>
 									   <div class="banner-mid-wthree"> <a href="index.html" class="hvr-buzz"> <img src="images/couple.png" alt="wp"/></a> </div>
 								  </div>
 							</li>
@@ -178,11 +191,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!--/counter-->
 <div class="agileinfo_counter_section">
   <div class="wthree_title_agile">
-						        <h3 class="h-t">Boda  <span>próximamente</span></h3>
+						        <h3 class="h-t">S&aacute;bado 23 de Julio 2022  <span></span></h3>
 								<p><i class="fa fa-heart-o" aria-hidden="true"></i></p>
 								
 							</div>
-						 <p class="sub_para two">NOS ESTAMOS CASANDO</p>
+						 <p class="sub_para two">¡Nos Casamos!</p>
  <div class="wthree-counter-agile">
 			   <!--timer-->
 					<section class="examples">
@@ -195,137 +208,111 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			 </div>
 <div class="clearfix"></div>
 </div>
-<!--//counter-->
-	<div class="banner-bottom">
-				<!--//screen-gallery-->
-				 <div class="wthree_title_agile">
-						        <h3>Latest <span>Couples</span></h3>
-								<p><i class="fa fa-heart-o" aria-hidden="true"></i></p>
-								
-							</div>
-						 <p class="sub_para">WE ARE GETTING MARRIED</p>
-						  <div class="inner_w3l_agile_grids">
-						<div class="sreen-gallery-cursual">
-							
-						       <div id="owl-demo" class="owl-carousel">
-							      <div class="item-owl">
-					                		<div class="test-review">
-						                	  <img src="images/s1.jpg" class="img-responsive" alt=""/>
-											  <h5>Groom</h5>
-					                	    </div>
-					                </div>
-					                 <div class="item-owl">
-					                	<div class="test-review">
-						                	  <img src="images/s2.jpg" class="img-responsive" alt=""/>
-											  <h5>Bride</h5>
-					                	    </div>
-					                </div>
-					                 <div class="item-owl">
-					                	    <div class="test-review">
-						                	  <img src="images/s3.jpg" class="img-responsive" alt=""/>
-											  <h5>Groom</h5>
-					                	    </div>
-					                </div>
-									 <div class="item-owl">
-					                	    <div class="test-review">
-						                	  <img src="images/s4.jpg" class="img-responsive" alt=""/>
-											  <h5>Bride</h5>
-					                	    </div>
-					                </div>
-									<div class="item-owl">
-					                	    <div class="test-review">
-						                	  <img src="images/s1.jpg" class="img-responsive" alt=""/>
-											 <h5>Groom</h5>
-					                	    </div>
-					                </div>
-					                 <div class="item-owl">
-					                		<div class="test-review">
-						                	  <img src="images/s5.jpg" class="img-responsive" alt=""/>
-											   <h5>Bride</h5>
-					                	    </div>
-					                </div>
-									 <div class="item-owl">
-					                		<div class="test-review">
-						                	  <img src="images/s3.jpg" class="img-responsive" alt=""/>
-											  <h5>Groom</h5>
-					                	    </div>
-					                </div>
-					                 <div class="item-owl">
-					                	<div class="test-review">
-						                	  <img src="images/s4.jpg" class="img-responsive" alt=""/>
-											  <h5>Bride</h5>
-					                	    </div>
-					                </div>
-					                 <div class="item-owl">
-					                	    <div class="test-review">
-						                	  <img src="images/s1.jpg" class="img-responsive" alt=""/>
-											 <h5>Groom</h5>
-					                	    </div>
-					                </div>
-									 <div class="item-owl">
-					                	    <div class="test-review">
-						                	  <img src="images/s2.jpg" class="img-responsive" alt=""/>
-											  <h5>Bride</h5>
-					                	    </div>
-					                </div>
-									 <div class="item-owl">
-					                	    <div class="test-review">
-						                	  <img src="images/s3.jpg" class="img-responsive" alt=""/>
-											  <h5>Groom</h5>
-					                	    </div>
-					                </div>
-									 <div class="item-owl">
-					                	    <div class="test-review">
-						                	  <img src="images/s5.jpg" class="img-responsive" alt=""/>
-											 <h5>Bride</h5>
-					                	    </div>
-					                </div>
-				              </div>
-						<!--//screen-gallery-->
-				</div>
-		  </div>
- </div>
+
+
+      <!--Modal Iglesia-->
+      <div class="modal fade bd-example-modal-lg modal1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title" id="myLargeModalLabel">Ubicación Iglesia</h2>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <div class="map-responsive">
+
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d580.0239586944894!2d-77.02958966821696!3d-12.048988027163357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8b723db61dd%3A0x9fd226e8813671d2!2sIglesia%20de%20San%20Pedro!5e0!3m2!1ses-419!2spe!4v1656307882618!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              
+			</div>
+            
+			</div>
+          </div>
+        </div>
+      </div>
+
+      <!--Modal Salon-->
+      <div class="modal fade bd-example-modal-lg modal2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title" id="myLargeModalLabel">Ubicación Salón</h2>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <div class="map-responsive">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3902.911388966!2d-77.0036811!3d-11.980633099999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c5153ad48273%3A0xd8beb9b6605f73ac!2sEl%20Rancho%20de%20Pol%201!5e0!3m2!1ses!2smx!4v1652712294829!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>              </div>
+            
+			</div>
+          </div>
+        </div>
+      </div>
+
+      <!--Modal Salon-->
+      <div class="modal fade bd-example-modal-lg modal3" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title" id="myLargeModalLabel">Ubicación Mesa de Regalos</h2>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <div class="map-responsive">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d975.7270544223243!2d-77.00850431185724!3d-11.980852487575294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c572bf0f6151%3A0xcc688e5f63d371b5!2sCasa%20Yuliana%20Yauri!5e0!3m2!1ses-419!2spe!4v1656309892019!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
+          </div>
+        </div>
+      </div>
+
+	</div>
+
 <!-- /property-grids -->
 <div class="property-grids">
      <div class="agile-homes-w3l  grid">
                 <div class="col-md-6 home-agile-left">
 				   <figure class="effect-moses">
 							<img src="images/p1.jpg" alt="" />
-							<figcaption>
-								<h4>Wedding Proposer</h4>
-								<p>We Make Your Dream True</p>
-							</figcaption>			
+									
 				</figure>
 
 				</div>
 				<div class="col-md-6 home-agile-text">
-				   <h4>Wedding Ceremony</h4>
-				   <p>Duis aute irure dolor reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Lorem Duis aute irure dolor reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+				   <h4>Iglesia</h4>
+				   <h4>San Pedro</h4>				   
+				   <p>Jr. Azángaro 451, Cercado de Lima.</p>
 				    <div class="date">
 					   <h5><i class="fa fa-calendar" aria-hidden="true"></i> 23 de Julio del 2022</h5>
 					   <h5><i class="fa fa-clock-o" aria-hidden="true"></i> de 3.00 pm a 4.00 pm</h5>
+					
 				   </div>
-						<div class="icon_wthree"><img src="images/ring.png" alt="" /></div>
+				   <br/>
+				   <div class="col-12 text-center" data-animation-effect="fadeIn">
+					<button class="btn btn-dark btn-xl" data-toggle="modal" data-target=".modal1"><i class="fa fa-map-marker pr-10"></i>Ver mapa</button>
+				  </div>
+
+				<div class="icon_wthree"><img src="images/ring.png" alt="" /></div>
 				</div>
 				<div class="clearfix"></div>	
 				 
 				<div class="col-md-6 home-agile-text">
-				   <h4>Wedding Dinner</h4>
-				   <p>Duis aute irure dolor reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Lorem Duis aute irure dolor reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+				   <h4>Recepci&oacute;n</h4>
+				   <h4>El Rancho de Pol 1</h4>
+				   <p>Av. El Bosque 450, San Juan de Lurigancho 15434, Perú.</p>
 				   <div class="date">
 					   <h5><i class="fa fa-calendar" aria-hidden="true"></i>23 de Julio del 2022</h5>
 					   <h5><i class="fa fa-clock-o" aria-hidden="true"></i> de 7.00 pm a 1.00 am</h5>
 				   </div>
+				   <br/>
+				   <div class="col-12 text-center " data-animation-effect="fadeIn">
+					<button class="btn btn-default btn-xl" data-toggle="modal" data-target=".modal2"><i class="fa fa-map-marker pr-10"></i>Ver mapa</button>
+				  </div>
+
 				   <div class="icon_wthree"><i class="fa fa-cutlery" aria-hidden="true"></i></div>
 
 				</div>
 				<div class="col-md-6 home-agile-left">
 						 <figure class="effect-moses">
 							<img src="images/p2.jpg" alt="" />
-							<figcaption>
-								<h4>Wedding Proposer</h4>
-								<p>We Make Your Dream True</p>
-							</figcaption>			
+									
 				</figure>
 				</div>
 				<div class="clearfix"></div>	
@@ -337,94 +324,132 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="wthree-news text-center">
 				<div class="container">
 					<div class="wthree_title_agile">
-						        <h3>Our <span>Events</span></h3>
+						        <h3>Mesa <span>de Regalos</span></h3>
 								<p><i class="fa fa-heart-o" aria-hidden="true"></i></p>
 								
 							</div>
-						 <p class="sub_para">OUR WEDDING EVENTS</p>
-						 <div class="inner_w3l_agile_grids">
-					<div class="col-md-6 wthree-right">
-						<div class="w3-agile-left">
-							<div class="work-left">
-								<h4>22 july</h4>
+
+							<div class="row  justify-content-center">
+								<div class="col-12" data-animation-effect="fadeIn">
+								<h2 class="text-center mt-4 space-top text-default logo-font">¡Que nos acompañes es lo más importante! Y si está en tu disposición realizar una muestra de cariño estaremos muy agradecidos.</h2>
+								
+								</div>
+
 							</div>
-							<div class="agileits-right text-left">
-								<a href="single.html">News post-1</a>
-								<p>Duis aute irure dolor reprehenderit in voluptate velit esse cillum dolore eu 
-									fugiat nulla pariatur.</p>
-							</div>
-							<div class="clearfix"></div>
-						</div>
-						<div class="wel-right">
-							<div class="content-item item-image1">
-								<a href="single.html"><img src="images/e1.jpg" alt="" /></a>
-							</div>
-						</div>
-						<div class="clearfix"></div>
-					</div>
-					<div class="col-md-6 wthree-right no-marg">
-						<div class="wel-right2">
-							<div class="content-item item-image2">
-								<a href="single.html"><img src="images/e2.jpg" alt="" /></a>
-							</div>
-						</div>
-						<div class="w3-agile-left2">
-							<div class="work-left">
-								<h4>02 Aug</h4>
-							</div>
-							<div class="agileits-right text-left">
-								<a href="single.html">News post-2</a>
-								<p>Duis aute irure dolor reprehenderit in voluptate velit esse cillum dolore eu 
-									fugiat nulla pariatur.</p>
-							</div>
-							<div class="clearfix"></div>
-						</div>
-						<div class="clearfix"></div>
-					</div>
-					<div class="clearfix"></div>
-					<div class="col-md-6 wthree-right">
-						<div class="w3-agile-left">
-							<div class="work-left">
-								<h4>12 Sep</h4>
-							</div>
-							<div class="agileits-right text-left">
-								<a href="single.html">News post-3</a>
-								<p>Duis aute irure dolor reprehenderit in voluptate velit esse cillum dolore eu 
-									fugiat nulla pariatur. </p>
-							</div>
-							<div class="clearfix"></div>
-						</div>
-						<div class="wel-right ">
-							<div class="content-item item-image1">
-								<a href="single.html"><img src="images/e3.jpg" alt="" /></a>
-							</div>
-						</div>
-						<div class="clearfix"></div>
-					</div>
-					<div class="col-md-6 wthree-right no-marg">
-						<div class="wel-right2">
-							<div class="content-item item-image2">
-								<a href="single.html"><img src="images/e4.jpg" alt="" /></a>
-							</div>
-						</div>
-						<div class="w3-agile-left2">
-							<div class="work-left">
-								<h4>15 Nov</h4>
-							</div>
-							<div class="agileits-right text-left">
-								<a href="single.html">News post-4</a>
-								<p>Duis aute irure dolor reprehenderit in voluptate velit esse cillum dolore eu 
-									fugiat nulla pariatur.</p>
-							</div>
-							<div class="clearfix"></div>
-						</div>
-						<div class="clearfix"></div>
-					</div>
-					<div class="clearfix"></div>
-				</div>
+
+							<div class="inner_w3l_agile_grids spa-agile">
+
+								<div class="col-md-6 spa-grid">
+									
+										<i class="fa fa-home" aria-hidden="true"></i>
+										<div class="clearfix"> </div>	
+
+										<a style="color:blue; font-weight: bold; " href='https://docs.google.com/forms/d/e/1FAIpQLScZrUpxW2NTbQPDT53Q_2l1U7XUE1FkV1kJOIMdkcz8-fgkxw/formResponse' target="_blank" >Haz clic AQUÍ para ver LISTA DE REGALOS<a>
+									
+										<h4>Estaremos recepcionando los presentes en la siguiente direcci&oacute;n: </h4>
+										
+										<p>Calle los Duraznos 308 pasaje a la mano izquierda al lado del colegio Bertolt Brecht. San Juan de Lurigancho.</p>
+										<p>Cell Sra. Rosa: 997 870 301</p>
+										<p>Cell Sra. Yuliana: 945 549 535</p>
+										
+										
+										<div class="col-12 text-center " data-animation-effect="fadeIn">
+											<button class="btn btn-default btn-xl" data-toggle="modal" data-target=".modal3"><i class="fa fa-map-marker pr-10"></i>Ver mapa</button>
+										</div>
+
+								</div>
+								<div class="col-md-6 spa-grid">
+									
+									<i class="fa fa-plane" aria-hidden="true"></i>
+									
+									
+										<h4> Si prefieres, puedes sumarte a nuestra aventura para hacer realidad nuestra luna de miel</h4>
+										<p>CCI: 011-186-000200661942-49</p>
+										
+										<p>BCP:  191-71251358-0-67</p>
+										<p>BBVA: 0011-0186-0200661942</p>
+										<p>PLIM: 987867429</p>
+								
+								</div>
+								
+								<div class="clearfix"> </div>
+							 </div>
+						 
+
 			</div>
 		</div>
-			<!-- //Events-->
+
+
+		<div class="wthree-news text-center">
+			<div class="container">
+				<div class="wthree_title_agile">
+							<h3>C&oacute;digo <span>de Vestimenta</span></h3>
+							<p><i class="fa fa-heart-o" aria-hidden="true"></i></p>
+							
+						</div>
+					 
+					
+						<div class="row  justify-content-center">
+							<div class="col-12" data-animation-effect="fadeIn">
+							<h2 class="text-center mt-4 space-top text-default logo-font">Formal</h2>
+							
+							</div>
+					
+
+
+							<div class="inner_w3l_agile_grids spa-agile">
+
+								<div class="col-md-6 spa-grid">
+
+									<div class="row justify-content-center">
+										<h4>Mujeres </h4>
+										<p>Vestido</p>
+										<div class="clearfix"> </div>
+										<div class="image-box text-center">
+											<img src="images/1.png" alt="" class="rounded-circle img-thumbnail">
+											</div>
+									</div>
+								</div>
+								<div class="col-md-6 spa-grid">
+									
+									
+									
+										<h4>Hombres</h4>
+										<p>Traje</p>
+										<div class="clearfix"> </div>
+										<div class="image-box ">
+											<img src="images/2.png" alt="" class="rounded-circle img-thumbnail">
+											</div>
+								</div>
+								
+								<div class="clearfix"> </div>
+							 </div>
+
+
+
+						</div>
+
+
+
+				<div class="clearfix"></div>
+
+
+				<div class="inner_w3l_agile_grids spa-agile">
+				
+						<h2 class="text-center mt-4 space-top text-default logo-font">Reglas</h2>
+						<p>No bajes la guardia, porta tu cubrebocas todo el tiempo posible.</p>
+						<p>Permite que el personal revise tu temperatura en la entrada.</p>
+						<p>Lava tus manos.</p>
+						<p>Si sientes algún síntoma previo al evento, háznoslo saber, nosotros comprenderemos tu ausencia.</p>
+				
+				
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+<!-- //Events-->
 <!--/bottom-->
 <div class="agileinfo_bottom_section">
 
@@ -437,8 +462,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			  <div class="snow background layered"></div>
 			</div>
   <div class="agile-w3l-sec">
-              <h3>The best gift will be your participation, thanks to all</h3>
-			  <p>Jasmin <span>&</span> Kyle Lee</p>
+              <h3>El mejor regalo ser&aacute; su participaci&oacute;n.</h3>
+			  <p>Erik <span>&</span> Yuliana</p>
 			  <div class="banner-mid-wthree"> <a href="index.html" class="hvr-buzz"> <i class="fa fa-heart-o" aria-hidden="true"></i></a> </div>
   	</div>
 
@@ -455,9 +480,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<ul class="aglieits-nav">
 				<li><a href="index.html">Home</a></li>
 				<li><a href="about.html">About</a></li>
-				<li><a href="gallery.html">Wedding Albums</a></li>
-				<li><a href="icons.html">Icons</a></li>
-				<li><a href="contact.html">Contact</a></li>
+
 			</ul>
 <div class="w3_agileits_social_media">
 					<ul>
@@ -555,23 +578,27 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 	<!-- here stars scrolling icon -->
 			<script type="text/javascript">
+			/*
 				$(document).ready(function() {
-					/*
+					
 						var defaults = {
 						containerID: 'toTop', // fading element id
 						containerHoverID: 'toTopHover', // fading element hover id
 						scrollSpeed: 1200,
 						easingType: 'linear' 
 						};
-					*/
+					
 										
 					$().UItoTop({ easingType: 'easeOutQuart' });
 										
 					});
+			*/
 			</script>
 			<!-- start-smoth-scrolling -->
 			<script type="text/javascript" src="js/move-top.js"></script>
 			<script type="text/javascript" src="js/easing.js"></script>
+			<script src="js/custom_AnimacionSobre.js"></script>
+			<script src="js/custom_Musica.js"></script>
 			<script type="text/javascript">
 				jQuery(document).ready(function($) {
 					$(".scroll").click(function(event){		
