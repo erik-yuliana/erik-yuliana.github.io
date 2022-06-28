@@ -1901,7 +1901,7 @@ ul.aglieits-nav li a:hover{
 }
 @media (max-width: 1366px){
     .banner_agile-info {
-		padding-top: 15em;
+		padding-top: 2em;
 	}
 	.home-agile-text {
 		padding: 5em 1em;
@@ -1959,7 +1959,7 @@ ul.aglieits-nav li a:hover{
 		min-height: 414px;
     }
 	.banner_agile-info {
-		padding-top: 12em;
+		padding-top: 2em;
 	}
 }
 @media (max-width:1080px){
@@ -1967,7 +1967,7 @@ ul.aglieits-nav li a:hover{
 		min-height:500px;
 	}
 	.banner_agile-info {
-		padding-top:9em;
+		padding-top:2em;
 	}
 	.callbacks_tabs {
 		bottom: -88px;
@@ -2090,7 +2090,7 @@ ul.aglieits-nav li a:hover{
 		min-height: 443px;
 	}
 	.banner_agile-info {
-		padding-top: 7em;
+		padding-top: 2em;
 	}
 	.banner_agile-info h3 {
 		font-size: 4.3em;
@@ -2495,7 +2495,7 @@ ul.aglieits-nav li a:hover{
 		height: 297px;
 	}
 	.banner_agile-info {
-		padding-top: 4em;
+		padding-top: 2em;
 	}
 	span.simply-amount {
 		font-size: 2.5em;
